@@ -1,0 +1,221 @@
+body,h1, h2, h3, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+background-color:#589af7;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#hero {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  background: white;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+p {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+  font-family: caption;
+
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.column .feature {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.column .feature img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+section#pricing .plan h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section#pricing .plan li {
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #ff9900;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ff9900;
+}
+
+#hero .cta-button {
+  background-color: #ff9900;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#hero .cta-button:hover {
+  background-color: #ff6600;
+}
+
+.column .feature {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.column .feature:hover {
+  background-color: #f9f9f9;
+}
+
+section#pricing .plan {
+ background-color:  #fff5d7;
+  transition: background-color 0.3s ease;
+
+
+  background-color: #f9f9f9;
+  padding-left: 231px;
+  padding-right: 227px;
+  margin-bottom: 46px;
+  text-align: center;
+  box-shadow: 0 40 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  
+}
+
+form button {
+  background-color: #ff9900;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ff6600;
+}
+
+.foot{
+  color: white;
+}
+
+.logo{
+  background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.hah{
+  text-align: center;
+  padding-top:  50px; ;
+}
+
+.pic{
+ width: 250px;
+  size: 15px;
+}
+
+.prize-icon{
+  width: 200px;
+}
+
+h3 span{
+  font-size: 16px;
+}
+
